@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        width: 300px;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mute Tabs Extension</h1>
+    <div id="incognito-warning" style="display:none; color: red;">Warning: This extension is not enabled for incognito mode.</div>
+
+    <label for="mute_action">Mute action:</label>
+    <select id="mute_action">
+      <option value="only_for_incognito">Only for incognito</option>
+      <option value="only_for_non_incognito">Only for non-incognito</option>
+      <option value="all">All</option>
+      <option value="disabled">Disabled</option>
+    </select>
+    <script src="popup.js"></script>
+  </body>
+</html>

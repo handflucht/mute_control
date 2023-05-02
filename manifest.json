@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Mute Control",
+    "version": "1.0",
+    "description": "Mute new tabs based on user preference.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
