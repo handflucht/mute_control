@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Mute Control",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Mute new tabs based on user preference.",
     "action": {
       "default_popup": "popup.html"
@@ -12,6 +12,9 @@
     ],
     "background": {
       "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "icons/mute-icon.png"
     }
   }
   
